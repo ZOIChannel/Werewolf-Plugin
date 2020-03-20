@@ -1,0 +1,6 @@
+name: Werewolf
+version: @version@
+main: net.zoizoi.plugin.Werewolf
+authors: [ZOII]
+description: Werewolf Game Plugin
+website: zoizoi.net
