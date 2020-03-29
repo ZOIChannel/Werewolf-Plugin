@@ -6,14 +6,9 @@ description: Werewolf Game Plugin
 website: zoizoi.net
 
 commands:
-
-#  basic:
-#    description: This is a demo command.
-#    usage: /<command> [player]
-#    permission: tutorialplugin.basic
-#    permission-message: You don't have <permission>
-#      basic - コマンド名。
-#      description - コマンドの説明文。
-#      usage - コマンドの使い方。onCommand() でfalseを返したときに、コマンド実行ユーザに向けて表示されるメッセージの内容。あなたの作ろうとしているコマンドの使い方を、わかりやすく説明してください。
-#      permission - コマンドの実行権限。このコマンドの実行に必要なパーミッションノードを設定します。あなたのプラグイン名と、コマンド名を、ピリオド（.）でつなげたパーミッションノードを設定することを推奨します（例：myplugin.test）。
-#      permission-message - 上で設定したコマンド実行権限を持たないユーザがコマンドを実行した場合に、実行権限が無いことを同ユーザに知らせるメッセージ。
+  wolf-ready:
+    description: Ready For Werewolf Game.
+    usage: /<command>
+  wolf-start:
+    description: Start Werewolf Game.
+    usage: /<command>

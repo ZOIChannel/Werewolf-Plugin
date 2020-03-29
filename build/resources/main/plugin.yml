@@ -4,3 +4,11 @@ main: net.zoizoi.plugin.Werewolf
 authors: [ZOI]
 description: Werewolf Game Plugin
 website: zoizoi.net
+
+commands:
+  wolf-ready:
+    description: Ready For Werewolf Game.
+    usage: /<command>
+  wolf-start:
+    description: Start Werewolf Game.
+    usage: /<command>
